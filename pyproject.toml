@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mage-hackathon"
+version = "0.1.0"
+description = ""
+authors = ["jlondonobo <j.londonobo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mage_hackathon"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mage-ai = "^0.8.49"
+pandas = "^2.0.0"
+kafka-python = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
